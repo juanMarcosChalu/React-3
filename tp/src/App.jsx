@@ -10,7 +10,7 @@ function App() {
 
   return (
     <>
-      <Header texto='Hola maquina'/>
+      <Header texto='Header'/>
       <Section1 />
       <Section2 />
     </>
