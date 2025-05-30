@@ -1,17 +1,16 @@
-import '../styles/section1.css';
-import img2 from '../assets/HP400G9I512GEN-768x768.png';
+
+import img2 from '../assets/pc-gamer.avif';
 import "../styles/section2.css";
 function Section2() {
     return (
         <section id='section2'>
-            <div>
-                <h4>Lenovo 30 pro</h4>
+          <div id='text'>
+                <h1>GPU para laptop NVIDIA® GeForce RTX™ serie 40</h1>
                     <p>
-                        Un equipo robusto y de alta velocidad, capaz de brindarte el mejor rendimiento por un modico precio
-                        con una excelente garantia de 2 años;
+                        Las GPU para laptop GeForce RTX™ serie 40 potencian las laptops más rápidas del mundo para jugadores y creadores. Diseñadas con la arquitectura Ada Lovelace sumamente eficiente, las laptops RTX serie 40 cuentan con núcleos Tensor de IA especializados, lo que permite nuevas experiencias de IA que no son posibles con una laptop promedio. Disfruta de un aumento considerable en el rendimiento con DLSS 3.5 y mundos virtuales realistas con trazado de rayos completo. Además, las tecnologías Max-Q con IA optimizan el rendimiento del sistema, la energía, la duración de la batería y la acústica para lograr la máxima eficiencia.
                     </p>
-            </div>
-            <div id='img-container'>
+           </div>
+            <div id='img-container-2'>
                 <img src={img2} alt="Imagen de una PC Gamer" />
             </div>
         </section>
