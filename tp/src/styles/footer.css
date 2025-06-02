@@ -1,0 +1,38 @@
+#footer{
+    display: flex;
+    width: 100vw;
+    height: 30vh;
+  
+    *{
+        margin: 0;
+        padding: 0;
+    }
+}
+.logoContainer{    width: 10%;
+}
+#cont{
+      padding: 10px;
+    display: flex;
+    width: 60%;
+    justify-content: center;
+    align-items:self-start;
+    a{
+        font-style: none;
+        text-decoration: none;
+        color: rgb(185, 181, 181);
+        text-shadow: #c4c4c4 1.2px 0px 3px;
+        &:hover{
+            color: #f5e559;
+            text-shadow: #000000 1.2px 0px 3px;
+        }
+    }
+}
+.pathofexile{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.8rem;
+
+}
