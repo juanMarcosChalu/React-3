@@ -3,9 +3,7 @@ import '../styles/footer.css';
 function Footer() {
     return (
         <div id='footer'>
-            <div className='logoContainer'>
-
-            </div>
+            
             <div id="cont">
                 <div className="pathofexile">
                     <h5>Use cases</h5>
